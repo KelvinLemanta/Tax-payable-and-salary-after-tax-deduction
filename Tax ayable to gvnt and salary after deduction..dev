@@ -1,0 +1,33 @@
+
+// Tax payable to gvnt and salary after deduction.
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	// Calculating the tax payable to the gvnt
+	int tax, bslary;
+	float taxpyble;
+	cout << " input tax payable";
+	cin >> tax;
+	cout << "input basic bslary";
+	cin >> bslary;
+	taxpyble = (25% * 10,000);
+	cout << " the tax payable is : " taxpyble << endl;
+	cout << endl;
+	
+	// Calculating the salary after tax deduction
+	int taxpyble, bslary;
+	float netsalary;
+	cout << " input basic salary";
+	cin >> bslary;
+	cout << " input taxpyble";
+	cin >> taxpyble;
+	netsalary = ( bslary - taxpyble );
+	cout << " The salary after tax deduction is :" << netsalary << endl;
+	cout << endl;
+	
+	return 0;
+}
+
